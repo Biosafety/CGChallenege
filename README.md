@@ -33,7 +33,8 @@ The goal of this challenge is to produce a Production ready REST API. Please don
 
 Four endpoints:
 Trainer Contoller
-- Authorization Header must be included with a value on every request.
+- Accept Header must be included ``` Accept: application/json ```
+- Authorization Header must be included ``` Authorization: anything ```
 - Add Trainer api/trainers/
   - PUT
   - Postbody Validation
