@@ -41,11 +41,11 @@ Trainer Contoller
   - Request
 ```
 {
-    "firstName": "Trainer",
-    "lastName": "Supreme",
+    "firstName": "Bast",
+    "lastName": "Son of Remmen",
     "address": "123 Main St, Anywhere USA",
     "email": "trainer@cg.com",
-    "phone": "3133114321"
+    "phone": "1234567890"
 }
 ```
   - Response
