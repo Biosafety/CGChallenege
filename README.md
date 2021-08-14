@@ -34,9 +34,10 @@ The goal of this challenge is to produce a Production ready REST API. Please don
 Four endpoints:
 Trainer Contoller
 - Authorization Header must be included with a value on every request.
-- Add Trainer
-  - POST / PUT
+- Add Trainer api/trainers/
+  - PUT
   - Postbody Validation
+  - Request
 ```
 {
     "firstName": "Trainer",
@@ -46,12 +47,48 @@ Trainer Contoller
     "phone": "3133114321"
 }
 ```
-- Get Trainer
+  - Response
+```
+{
+    "trainerID": "51eedb43-4d39-4f52-ad49-19306759d578",
+    "firstName": "Bast",
+    "lastName": "Son of Remmen",
+    "address": "123 Main St, Anywhere USA",
+    "email": "test@cg.com",
+    "phone": "1234567890"
+}
+```
+- Get Trainer api/trainers/{GUID}
   - GET
-- Get Trainers
+  - Response
+```
+{
+    "trainerID": "51eedb43-4d39-4f52-ad49-19306759d578",
+    "firstName": "Bast",
+    "lastName": "Son of Remmen",
+    "address": "123 Main St, Anywhere USA",
+    "email": "test@cg.com",
+    "phone": "1234567890"
+}
+```
+- Get Trainers api/trainers/
   - GET
-- Modify Trainer
+  - Response
+```
+[
+    {
+        "trainerID": "51eedb43-4d39-4f52-ad49-19306759d578",
+        "firstName": "Bast",
+        "lastName": "Son of Remmen",
+        "address": "123 Main St, Anywhere USA",
+        "email": "test@cg.com",
+        "phone": "1234567890"
+    }
+]
+```
+- Modify Trainer api/trainers/
   - PATCH
+  - Request
 ```
 [
     {
@@ -65,6 +102,17 @@ Trainer Contoller
         "op": "replace"
     }
 ]
+```
+  - Response
+```
+{
+    "trainerID": "51eedb43-4d39-4f52-ad49-19306759d578",
+    "firstName": "Sally",
+    "lastName": "Rabbit",
+    "address": "123 Main St, Anywhere USA",
+    "email": "test@cg.com",
+    "phone": "1234567890"
+}
 ```
 
 Application Start
