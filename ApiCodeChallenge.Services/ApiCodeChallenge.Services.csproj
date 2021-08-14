@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiCodeChallenge.Common\ApiCodeChallenge.Common.csproj" />
+    <ProjectReference Include="..\ApiCodeChallenge.Repositories\ApiCodeChallenge.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
