@@ -78,5 +78,7 @@ After Successful Building
 
 This will bind to localhost:8080.
 
-Once running Import Postman Collection for endpoint useage.[CodeChallenge.postman_collection.zip](https://github.com/Biosafety/CGChallenege/files/6985691/CodeChallenge.postman_collection.zip)
+Once running Import Postman Collection for endpoint useage.
+[CodeChallenge.postman_collection.zip](https://github.com/Biosafety/CGChallenege/files/6987203/CodeChallenge.postman_collection.zip)
+
 
