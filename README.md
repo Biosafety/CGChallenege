@@ -35,7 +35,7 @@ Four endpoints:
 Trainer Contoller
 - Authorization Header must be included with a value on every request.
 - Add Trainer
-  - PUT
+  - POST / PUT
   - Postbody Validation
 ```
 {
