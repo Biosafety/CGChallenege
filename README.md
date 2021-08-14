@@ -33,10 +33,39 @@ The goal of this challenge is to produce a Production ready REST API. Please don
 
 Four endpoints:
 Trainer Contoller
+- Authorization Header must be included with a value on every request.
 - Add Trainer
+  - PUT
+  - Postbody Validation
+```
+{
+    "firstName": "Trainer",
+    "lastName": "Supreme",
+    "address": "123 Main St, Anywhere USA",
+    "email": "trainer@cg.com",
+    "phone": "3133114321"
+}
+```
 - Get Trainer
+  - GET
 - Get Trainers
+  - GET
 - Modify Trainer
+  - PATCH
+```
+[
+    {
+        "value": "Rabbit",
+        "path": "/LastName",
+        "op": "replace"
+    },
+        {
+        "value": "Sally",
+        "path": "/FirstName",
+        "op": "replace"
+    }
+]
+```
 
 Application Start
 Cd into the root directory where the solution (.sln) file is at \ApiCodeChallengeRepo.
