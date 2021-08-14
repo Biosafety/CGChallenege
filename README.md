@@ -130,3 +130,12 @@ Once running Import Postman Collection for endpoint useage.
 [CodeChallenge.postman_collection.zip](https://github.com/Biosafety/CGChallenege/files/6987203/CodeChallenge.postman_collection.zip)
 
 
+## Next Steps:
+- Implement a non inmemory based DB
+  - Move Context to start of app and use DI
+- Properly introduce real token based Authorization
+- Expand on logging
+  - Request Id's
+  - Logging to a service
+- Expand Unit Testing to Service / Repo layer
+- Depending on Scope of Data move to JSON:API ``` application/vnd.api+json ``` 
