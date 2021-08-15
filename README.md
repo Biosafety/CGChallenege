@@ -134,9 +134,11 @@ Once running Import Postman Collection for endpoint useage.
 ## Next Steps:
 - Implement a non inmemory based DB
   - Move Context to start of app and use DI
-- Properly introduce real token based Authorization
+- Introduce token based Authorization
 - Expand on logging
   - Request Id's
   - Logging to a service
 - Expand Unit Testing to Service / Repo layer
+- Setup CI/CD Deployment pipeline
 - Depending on Scope of Data move to JSON:API ``` application/vnd.api+json ``` 
+  - GZip Compression 
