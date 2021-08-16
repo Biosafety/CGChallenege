@@ -135,6 +135,7 @@ Once running Import Postman Collection for endpoint useage.
 - Implement a non inmemory based DB
   - Move Context to start of app and use DI
 - Introduce token based Authorization
+- Create implement permission layer for Authorized users.
 - Expand on logging
   - Request Id's
   - Logging to a service
